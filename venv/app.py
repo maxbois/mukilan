@@ -22,5 +22,10 @@ def crew():
 def about():
    return render_template('about.html')
 
+
+@app.route('/aboves')
+def aboves():
+   return render_template('aboves.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
